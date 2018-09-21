@@ -118,23 +118,22 @@
 		</dependency>
 		<dependency>
 			<groupId>org.typelevel</groupId>
-			<artifactId>cats-core_${version.scala.epoch}</artifactId>
+			<artifactId>cats-core_${version.scalajs.library}</artifactId>
 			<version>${version.cats}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.typelevel</groupId>
-			<artifactId>cats-free_${version.scala.epoch}</artifactId>
+			<artifactId>cats-free_${version.scalajs.library}</artifactId>
 			<version>${version.cats}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.scala-js</groupId>
 			<artifactId>scalajs-dom_${version.scalajs.library}</artifactId>
 			<version>0.9.6</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.monix</groupId>
-			<artifactId>monix_${version.scala.epoch}</artifactId>
+			<artifactId>monix_${version.scalajs.library}</artifactId>
 			<version>3.0.0-RC1</version>
 		</dependency>
 		<dependency>
@@ -146,13 +145,13 @@
 		<dependency>
 			<groupId>org.typelevel</groupId>
 			<artifactId>cats-laws_${version.scala.epoch}</artifactId>
-			<version>1.0.1</version>
+			<version>${version.cats}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.typelevel</groupId>
 			<artifactId>cats-testkit_${version.scala.epoch}</artifactId>
-			<version>1.0.1</version>
+			<version>${version.cats}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
